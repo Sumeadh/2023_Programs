@@ -1,0 +1,10 @@
+* If the learning rate is too low then the model would take too much time to attain the minima
+* Is the learning rate is too fast, then the model would skip the minimum point and endlessly jump too and fro inside the graph.
+* Too much data points can slow down the process of gradient descent
+* If the input dataset is too much scaled then gradient descent takes much longer to attain minima 
+	
+Solutions:
+* Use Appropriate learning rate
+*  Use techniques like mini-batch gradient descent, where the gradients are computed on smaller random subsets 
+* Normalisation(rescaling of inputs)
+* Take caution over underfitting and overfitting

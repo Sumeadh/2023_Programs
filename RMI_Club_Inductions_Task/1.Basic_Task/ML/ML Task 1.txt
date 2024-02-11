@@ -1,0 +1,26 @@
+1) The second model is the best fit to the data-set
+2)
+
+Graph 1
+	
+Problem:Underfitting
+* The predicted curve is underfitting the given data points.So the predicition is not accurate.
+* This basically happens when the model has a very high bias. That is, the model over-assumes the data-set and hence may have a limited capacity to learn complex patterns.
+* Due to the simplicity of the model, the variance of the model is very less.
+
+Graph 3
+
+Problem:Overfitting
+* The predicted curve is overfitting the given data points.So the graph is more focussed on covering all the points rather than being a genral graph for all kinds of points
+* This kind of models has high variance. So the graph is more complex and is composed of higher degeree terms
+
+Graph 2
+* Has a good trade-off between bias and variance level
+* Serves as a genral curve for all kinds of data points
+
+3)Ways to avoid over-fitting
+
+* Collect as much data points as possible
+* Don't set too much parameters for a particular dataset. Consider only the necessary parameters
+* Regularization:
+	 Regularization adds a penalty term to the loss function, which encourages the model to have smaller parameter values. It reduces the contribution from the weights of the higher degeree terms to have a simpler curve

@@ -1,0 +1,9 @@
+Pole
+	-1,-4,-5,-7
+Zeros
+	0,3
+Dominant Pole
+	-1
+
+Time Constant
+	-1/-1=1 

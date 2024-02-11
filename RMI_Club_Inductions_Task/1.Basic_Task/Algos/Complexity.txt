@@ -1,0 +1,41 @@
+What is Algorithmic Complexity
+
+As different languages use different syntax, computing effeciency of a particular algorithm depended the language used. So in-order to avoid that, we developed a common method to predict the effeciency of the algorithm. 
+There are two factors to calculate the effeciency of a program 
+1)Time taken to process 
+2)Space required 
+
+1) Time taken
+	* It is directly proportional to the total number of tasks done by the program
+	* One computation is considerd to be one task
+2)Space Complexity
+	* It is the total spacce required to store the variables
+	*ex: integers and strings have constant space complexity
+		1D arrays have linear time complexity
+		2D arrays have quadratic time complexity
+Notations:
+
+Big O notation (O): This notation represents the upper bound of an algorithm's growth rate. It describes the worst-case scenario, indicating that the algorithm's time or space complexity will not exceed a certain value as the input size increases.
+
+Omega notation (Ω): This notation represents the lower bound of an algorithm's growth rate. It provides a guarantee that the algorithm's time or space complexity will be at least a certain value as the input size increases.
+
+Theta notation (Θ): This notation represents both the upper and lower bounds of an algorithm's growth rate. It provides a tight bound on the algorithm's time or space complexity, indicating that it grows at the same rate as the bound.
+
+Little O notation (o): This notation represents an upper bound that is not tight. It indicates that the algorithm's growth rate is strictly less than a certain value, implying that it is faster or more space-efficient than the given bound.
+
+Little Omega notation (ω): This notation represents a lower bound that is not tight. It indicates that the algorithm's growth rate is strictly greater than a certain value, implying that it is slower or less space-efficient than the given bound.
+
+
+Question
+Time Complexity=N+logN
+Space Complexity=N+logN
+
+Time Complexity
+1) While loop executes N times
+2) 2nd while loop executes by the equation 
+	n=2^k
+	k=logn
+
+Space Complexity
+1) For each N iteration, N values are appended inside arr2
+2) Similarly for arr3
